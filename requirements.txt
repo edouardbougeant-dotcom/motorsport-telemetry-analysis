@@ -1,0 +1,7 @@
+fastf1
+numpy
+pandas
+matplotlib
+plotly
+sympy
+scipy

@@ -81,4 +81,4 @@ Working from publicly available telemetry imposes some honest constraints:
 - FastF1 documentation — https://docs.fastf1.dev
 ---
  
-**Author** — Edouard Bougeant · [LinkedIn](https://www.linkedin.com/in/your-profile) · aspiring data & performance engineer in motorsport.
+**Author** — Edouard Bougeant · https://www.linkedin.com/in/edouard-bougeant-56bbb42a8/ · aspiring data & performance engineer in motorsport.
