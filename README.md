@@ -13,7 +13,7 @@ What separates a fast lap from a slow one? This project answers that question us
  
 ## Key Results
  
--  **Lap-time simulation within 0.46%.** A physics-based point-mass model, calibrated with `scipy.optimize`, reproduces Carlos Sainz's real Monza qualifying lap (**81.046 s**) to within **0.372 s**. Calibrated aerodynamic coefficients: Cx = 0.694, Cl = 3.023.
+-  **Physics-based lap-time model validated within ~2%.** A point-mass model with a friction-circle traction-limited corner exit, calibrated on *independent* observables — downforce on measured corner speeds, drag on the measured top speed (350 km/h) rather than on the lap time itself — **predicts** Carlos Sainz's real Monza pole lap (**1:20.294**) to within **~2% (1.6 s)**. Calibrated coefficients: Cx = 0.748, Cl = 3.023.
 - **Braking analysis — Sainz vs Stroll (Monza Q).** Sainz brakes **later at every single braking zone**, up to **+30 m at Lesmo 1** (≈ 
 +0.43s on one corner). A combined-G "valley" pinpoints exactly where Stroll brakes too early and leaves grip unused.
 - **Aerodynamic analysis (Monza & Monaco).** DRS cuts drag by **18.6%** at Monza (Cx 1.06 → 0.87), worth roughly **+23 km/h** of top speed — in line with Segers' 15–25% range. Comparing the estimated drag coefficients across circuits also captures each car's setup philosophy: Monaco's high-downforce configuration runs an estimated Cx **~76% higher** than Monza's low-drag setup (≈ 1.52 vs 0.87).
